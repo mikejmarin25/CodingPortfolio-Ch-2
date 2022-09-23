@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: lightgray;
+  color: darkslategray;
+}
+
+/* HEADER Styling */
+header {
+  padding: 10px;
+  background-color: darkslategray;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Display Name */
+header h1 {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 52px;
+  color: lightgrey;
+  margin: 0;
+}
+
+/* Navigation Links in the Header */
+header nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding:40px;
+  flex-direction: row;
+  align-items: center;  
+}
+
+
+header nav ul li a {
+  margin: 35px;
+  /* spacing in between each link */
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header a {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+/* Hero Style Start */
+.hero {
+  background-image: url("../images/abstract-triangle-background-patterns-vector-10114549.jpeg");
+  height: 250px;
+  background-position: center;
+  position: relative;
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
+  margin: 0;
+}
+/* Hero Style End */
+
+/* About me Styling */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 35px;
+  margin: 0 auto 30px auto;
+  background: lightgray;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
+  overflow: auto;
+}
+
+.about img {
+  width: 35%;
+  float: left;
+}
+
+.about-text {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
+
+.about-text h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+.about-text h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.about-text ul {
+  font-size: 27px;
+  padding: 20px;
+ 
+
+}
+
+.text-left {
+  text-align: left;
+}
+
+.firstProject{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 35px;
+
+}
+
+.firstProject h1{
+    font-size: 40px;
+    color: darkslategray;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 150px;
+}
+
+/* Work Section Styling */
+
+.work {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.work h1{
+    font-size: 40px;
+      font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.work img {
+  width: 100;
+  padding: 45px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+mark {
+  background-color: lightgrey;
+  color: darkslategray;
+}
+
+/* RunBuddy Project */
+.Run-Buddy-P1 {
+  position: relative;
+  text-align: center;
+}
+.Run-Buddy-P1 img{
+    transition: 0.5s all ease-in-out;
+}
+.Run-Buddy-P1:hover img {
+    transform: scale(1.1);
+}
+
+/* Challenge 1 */
+.CodeRefactor-Ch-1 {
+  position: relative;
+  text-align: center;
+}
+.CodeRefactor-Ch-1 img{
+    transition: 0.5s all ease-in-out;
+}
+.CodeRefactor-Ch-1:hover img {
+    transform: scale(1.1);
+}
+
+/* Challenge 2 */
+.CodingProfile-Ch-2 {
+  position: relative;
+  text-align: center;
+}
+.CodingProfile-Ch-2 img{
+    transition: 0.5s all ease-in-out;
+}
+.CodingProfile-Ch-2:hover img {
+    transform: scale(1.1);
+}
+
+/* Project 2 */
+.dev-connect-portfolio-sharing {
+  position: relative;
+  text-align: center;
+}
+.dev-connect-portfolio-sharing img{
+    transition: 0.5s all ease-in-out;
+}
+.dev-connect-portfolio-sharing:hover img {
+    transform: scale(1.1);
+}
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+/* Contact Me Styling */
+
+footer {
+  padding: 20px;
+  font-family:  sans-serif;
+  background-color: darkslategray;
+  color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer h1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer nav {
+  margin: 35px 0;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer nav ul li a {
+  margin: 0 80px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
