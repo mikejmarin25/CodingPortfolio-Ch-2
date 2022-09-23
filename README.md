@@ -13,3 +13,4 @@ GIVEN I need to sample a potential employee's previous work WHEN I load their po
 Used mock-up as a guide for development, the following link navigates to the deployed website:
 
 https://mikejmarin25.github.io/CodingPortfolio-Ch-2/
+
